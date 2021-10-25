@@ -89,6 +89,12 @@ section {
 td {
    padding: 10px;
 }
+footer {
+    clear: both;
+    text-align: center;
+    margin: 2em;
+    padding: 2em;
+}
 </style>
 </html>
 
