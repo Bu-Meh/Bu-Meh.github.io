@@ -4,6 +4,11 @@ body.b-img {
   background-attachment: fixed; 
   background-size: 100% 100%;
 }
+.row-b:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 ul.fixed-position {
   list-style-type: none;
   margin: 0;
