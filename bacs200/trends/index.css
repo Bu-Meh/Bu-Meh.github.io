@@ -1,0 +1,50 @@
+body.b-img {
+  background-image: url('https://i.pinimg.com/originals/3c/07/51/3c0751d8b348e811f4e0ed8a8dac494c.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+ul.fixed-position {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.leftcolumn-b {   
+  float: left;
+  width: 60%;
+}
+.rightcolumn-b {
+  float: left;
+  width: 40%;
+  padding-left: 20px;
+}
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+.footer-b {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+.img-right {
+  float: right;
+}
+
+.img-left {
+  float: right;
+}
+.card-b {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
