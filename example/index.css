@@ -4,8 +4,10 @@
 
 body {
   font-family: Arial;
-  padding: 10px;
-  background: blue;
+  background-image: url('https://i.pinimg.com/originals/3c/07/51/3c0751d8b348e811f4e0ed8a8dac494c.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
 }
 
 /* Header/Blog Title */
